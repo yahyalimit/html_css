@@ -7,7 +7,7 @@ border-radius: 17px;
 width: 100px;
 height: 30px;
 margin-right: 8px;
-
+cursor: pointer;
 
 }
 .buy-button{
@@ -17,6 +17,7 @@ border: none;
 border-radius: 17px;
 width: 100px;
 height: 30px;
+cursor: pointer;
 
 }
 .stock{
@@ -27,12 +28,22 @@ font-weight: bold;
 .nike{
 font-weight: bold;
 }
+.back:hover{
+  color:orange;
+}
+.Add-button:active{
+  background-color: rgb(216, 202, 134);
 
-
-
+}
+.buy-button:active{
+  background-color: rgba(255, 145, 28, 0.603);
+}
+.back{
+  color:aquamarine;
+}
 </style>
 
-<a href="https://www.amazon.com/">Back to Amazon</a>
+<a class="back" href="https://www.amazon.com/">Back to Amazon</a>
 <p><span class="nike">  Nike Black Running Shoes</span></p>
 <p><span class="stock">  @39-in stock. </span></p>
 <a >Free delivry tomorrow.</a>
