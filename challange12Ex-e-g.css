@@ -1,0 +1,42 @@
+.last-div{
+    display: flex;
+    border-width: 1px;
+    border-style: solid;
+    height: 60px;
+    justify-content:space-between;
+    align-items: center;
+    width: 850px;
+    background-color:rgb(133, 74, 189);
+    border: none;
+    border-radius: 5px;
+}
+
+
+.text-hom{
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  margin-left: 8px;
+  }
+
+.button-downl{
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  border-style: bold;
+  border-width: 1.5px;
+  border-radius: 3px;
+  margin-right: 8px;
+  height: 35px;
+  width: 90px;
+  font-size: 15px;
+
+}
+.input-div{
+  width: 550px;
+  border-radius:10px;
+  border: none;
+  height: 25px;
+  padding-left: 15px;
+  
+}

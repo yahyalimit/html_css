@@ -1,0 +1,58 @@
+.big-big-div{
+  width: 450px;
+  height: 290px;
+  display:inline-flex;
+  flex-direction: column;
+  border-radius: 4px;
+  align-items: center;
+  box-shadow: 0px 1px 6px rgb(0,0,0,0.4);
+  margin-bottom: 30px;
+}
+
+.inbix-style{
+  font-family: arial;
+  width: 420px;
+  font-weight: bold;
+  color: rgb(175, 168, 168);;
+}
+.big-div{
+  display: flex;
+  width: 400px;
+  height: 75px;
+  align-items: center;
+}
+.img{
+  width: 50px;
+  border-radius: 25px;
+}
+.Chewy-div{
+  display: flex ;
+  width: 333px ;
+  justify-content: space-between ;
+  font-family: arial ;
+  font-weight: bold;
+}
+
+.line-2-text{
+  font-family: arial ;
+  font-weight: bold;
+  font-size: 15px;
+  
+}
+.line-3-text{
+  color: rgb(175, 168, 168);
+  font-family: arial ;
+  font-size: 15px;
+}
+ .likn-youtube{
+  display: flex;
+  width:365px ;
+  height: 100px;
+  font-family: arial;
+  justify-content: end;
+  
+ }
+
+
+
+

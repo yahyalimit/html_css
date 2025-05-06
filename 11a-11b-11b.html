@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>css Gride practice</title>
+    <style>
+      .img-pitt1{
+        width: 200px;
+        
+      }
+      .div--{
+        
+        
+        display:inline-block;
+
+        box-shadow:  0px 1px 8px rgb(0, 0, 0,0.30);
+      }
+
+      .name{
+        font-family: Arial;
+        font-size: 15px;
+        font-weight: bold;
+        margin-bottom: 8px;
+        margin-left: 10px;
+        margin-top: 5px;
+      }
+      .min-img{
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        margin-left: 10px;
+      }
+      .div-img-text{
+        display: flex;
+      
+      }
+
+      .nr-mutual{
+        margin-left: 15px;
+        font-family: Arial;
+        font-size: 13px;
+        color: gray;
+        margin-top: 10px;
+      }
+
+      .button-div{
+        background-color: rgb(62, 111, 245);
+        color: white;
+        border: none;
+        width: 100px;
+        border-radius:4px;
+        margin-left: 10px;
+        margin-top: 0px;
+        font-size: 13px;
+        height: 25px;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div style="
+      display: grid;
+      grid-template-columns: 200fr 75fr ;">
+      <div style="background-color: aqua;">200px </div>
+      <div style="background-color: red;">75px</div>
+    </div>
+    <br>
+    <div style="
+      display: grid;
+      grid-template-columns: 1fr 3fr 1fr ;">
+      <div style="background-color: aqua;
+      padding-right: 50px;">col1 </div>
+      <div style="background-color: red;">col2</div>
+      <div style="background-color: aqua;padding-right: 50px;">col3</div>
+    </div>
+    <br>
+    <div style="
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr; column-gap:20px;row-gap: 10px ; ">
+      <div style="background-color: red;">col1</div>
+      <div style="background-color: red;">col2</div>
+      <div style="background-color: red;">col3</div>
+      <div style="background-color: red;">col4</div>
+      <div style="background-color: red;">col1</div>
+      <div style="background-color: red;">col2</div>
+      <div style="background-color: red;">col3</div>
+      <div style="background-color: red;">col4</div>       
+    </div>
+    <br>
+    <div style="display: grid;grid-template-columns: 1fr 1fr 1fr;column-gap: 20px;
+    width:  200px;
+    height: 310px;">
+      <div class="div--">
+        <img class="img-pitt1" src="thumbnails/pitt1.jpg">
+        <div>
+          <p class="name">Dr. Santos</p>
+          <div class="div-img-text">
+            <img class="min-img" src="thumbnails/pitt4.jpg" >
+            <p class="nr-mutual">2 mutual friends</p>
+          </div>
+          <button class="button-div">Add Friends</button>
+        </div>
+      </div>
+      <div class="div--">
+        <img class="img-pitt1" src="thumbnails/pitt1.jpg">
+        <div>
+          <p class="name">Dr. Santos</p>
+          <div class="div-img-text">
+            <img class="min-img" src="thumbnails/pitt4.jpg" >
+            <p class="nr-mutual">2 mutual friends</p>
+          </div>
+          <button class="button-div">Add Friends</button>
+        </div>
+      </div>
+      <div class="div--">
+        <img class="img-pitt1" src="thumbnails/pitt1.jpg">
+        <div>
+          <p class="name">Dr. Santos</p>
+          <div class="div-img-text">
+            <img class="min-img" src="thumbnails/pitt4.jpg" >
+            <p class="nr-mutual">2 mutual friends</p>
+          </div>
+          <button class="button-div">Add Friends</button>
+        </div>
+      </div>
+    </div>
+
+        
+  </body>
+</html>

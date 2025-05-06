@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>challange-14Ex</title>
+    <style>
+      .img{
+        height: 60px;
+        border-radius: 30px;
+       
+      }
+      .img-div{
+        position: fixed;
+        display:flex;
+        flex-direction:column;
+        gap: 12px;
+        background-color: rgb(20, 44, 97);
+        width: 80px;
+        align-items: center;
+        justify-content: start;
+        bottom: 0px;
+        top: 0px;
+        left: 0px;
+        padding-top: 10px;
+      }
+      .info-div{
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        width: 260px;
+        bottom: 0;
+        top: 0;
+        margin-left: 80px;
+        background-color: rgb(73, 100, 160);
+        padding-top: 12px;
+        padding-left:12px ;
+        color: white;
+        font-family: arial;
+        
+      }
+      
+
+    </style>
+  </head>
+  <body style="background-color: rgb(101, 145, 196); margin: 0px;">
+    <div>
+        <div class="img-div">
+          <img class="img" src="thumbnails/pitt4.jpg">
+          <img class="img" src="thumbnails/pitt3.jpg">
+          <img class="img" src="thumbnails/mec-1.jpg">
+        </div>   
+    </div>
+    <div class="info-div">
+        <div style="display: flex;justify-content: space-between;align-items: center;margin-right: 10px;font-weight: bold;">
+          <div>INFO</div>
+          <div style="font-weight: bold;font-size: 30px;">+</div>
+        </div>
+        <div style="display: flex;flex-direction: column; gap: 15px; margin-top: 5px;">
+            <div> # new-video</div> 
+            <div> # updates</div>
+            <div> # faq</div>
+        </div>
+    </div>
+  </body>
+</html>
+
