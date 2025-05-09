@@ -1,0 +1,27 @@
+.left-side-icons{
+  font-family: arial;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 23px 0px;
+  gap: 4px;
+  width: 27px;
+  
+  
+  
+}
+.left-side{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  
+  background-color: white;   
+  position: fixed;
+  left: 0;  
+   top: 58px;
+  width: 70px;  
+  bottom: 0;
+  z-index: 200;
+  
+}

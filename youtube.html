@@ -2,40 +2,311 @@
 <html>
   <head>
     <title>youtube.com clone</title>
-    <link rel="stylesheet" href="intro-to-html/style/youtube.css">
+    <style>
+      body{
+  background-color:rgb(2, 34, 44);
+}
+.search-bar{
+  margin-left: 20px;
+  font-size: 17px;
+  width: 300px;
+  padding-left: 30px;
+  height: 25px;
+  border-radius: 15px;
+  border-style: solid;
+  font-family:arial;
+}
+.big-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  cursor: pointer;
+}
+.profil-title-div{
+  display: flex;
+  
+  margin-top: 8px;
+}
+
+.thumbnail{
+  width: 300px;
+  
+
+}
+.time-video{
+  padding: 4px;
+  font-family: arial;
+  position: absolute;
+  right: 5px;
+  bottom: 4px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.849);
+}
+.profile-channel{
+  width: 50px;
+  border-radius: 25px;
+  position: relative;
+}
+
+.title-video{
+  width: 240px;
+  margin-bottom: 15px;
+  font-family: arial;
+  font-weight: bold;
+  margin-bottom: 12px;
+  
+}
+.titlt-name-views  div
+{
+  display: grid;
+  grid-template-rows: 1fr  ;
+  margin-left: 8px;
+}
+.name-views{
+  margin-bottom: 5px;
+  font-family: arial;
+  color: rgb(243, 245, 244);
+  font-weight: bold;
+  font-size: 13px;
+}
+.div-hover-profile{
+  
+  position: absolute;
+  width: 250px;
+  background-color: white;
+  display: flex;
+  font-family: arial;
+  font-weight: bold;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+  bottom: -55px;
+  left: 50px;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.4s;
+ 
+}
+
+.div-hover-test{
+  position: relative;
+  height: 50px;
+  width: 50px;
+}
+.profile-channel2{
+  width: 50px;
+  border-radius: 25px;
+}
+.div-hover-test:hover  .div-hover-profile{
+  opacity: 1;
+  transition: 0.4s;
+}
+.title{
+  color: white;
+  text-decoration: none;
+}
+.s9af-page{
+  display: flex;
+  justify-content:start;
+  margin-bottom: 8px;
+}
+.logo-youtube{
+  width: 120px;
+
+}
+
+
+
+    </style>
     
   </head>
   <body>
-    <input  class="search-bar" type="text" placeholder="Search">
-    <div class="big-div" >
+    <div class="s9af-page">
+      <div><img class="logo-youtube" src="thumbnails/YouTube_Logo_2017.svg.png"></div>
+      <div><input  class="search-bar" type="text" placeholder="Search"></div>
+    </div>
+    <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; ">
+      <div class="big-div" >
 
-      <div  style="position: relative;height: 170px;">
-        <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
-        <div class="time-video" >14:55</div>
-      </div>
-      
-
-      <div class="profil-title-div">
-          <div class="div-hover-test">
-          <img class="profile-channel" src="thumbnails/pitt1.jpg"> 
-            <div class="div-hover-profile">
-                <img class="profile-channel2" src="thumbnails/pitt1.jpg">
-                <div>
+        <div  style="position: relative;height: 170px;">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+          <div class="time-video" >14:55</div>
+        </div>
+        <!--had lpartie dyal hover  -->
+        <div class="profil-title-div">
+            <div class="div-hover-test">
+            <img class="profile-channel" src="thumbnails/pitt1.jpg"> 
+              <div class="div-hover-profile">
+                  <img class="profile-channel2" src="thumbnails/pitt1.jpg">
                   <div>
-                  YA7YA
-                </div>
-                <div style="color: rgb(199, 194, 194);margin-top: 5px;">
-                  100M SUBSRCRIBE
-                </div>
-                </div>
+                    <div>
+                    YA7YA
+                  </div>
+                  <div style="color: rgb(199, 194, 194);margin-top: 5px;">
+                    100M SUBSRCRIBE
+                  </div>
+                  </div>
+              </div>
             </div>
-          </div>
+        <!-- -->
+            <div class="titlt-name-views" >
+              <div class="title-video"><a class="title" href="https://youtu.be/n2RNcPRtAiY?si=DC9TQ3jgI-LuCd9b">Talking tech and AI with google CEO Sundar pichai!</a></div>
+              <div class="name-views">Ya7aY </div> 
+              <div class="name-views">3.4M views. 6 month ago</div>          
+            </div>
+        </div>
+      </div>
+      <div class="big-div" >
 
-          <div class="titlt-name-views" >
-            <div class="title-video">Talking tech and AI with google CEO Sundar pichai!</div>
-            <div class="name-views">YA7AY </div> 
-            <div class="name-views">3.4M views. 6 month ago</div>          
-          </div>
+        <div  style="position: relative;height: 170px;">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+          <div class="time-video" >14:55</div>
+        </div>
+        <!--had lpartie dyal hover  -->
+        <div class="profil-title-div">
+            <div class="div-hover-test">
+            <img class="profile-channel" src="thumbnails/pitt1.jpg"> 
+              <div class="div-hover-profile">
+                  <img class="profile-channel2" src="thumbnails/pitt1.jpg">
+                  <div>
+                    <div>
+                    YA7YA
+                  </div>
+                  <div style="color: rgb(199, 194, 194);margin-top: 5px;">
+                    100M SUBSRCRIBE
+                  </div>
+                  </div>
+              </div>
+            </div>
+        <!-- -->
+            <div class="titlt-name-views" >
+              <div class="title-video"><a class="title" href="https://youtu.be/n2RNcPRtAiY?si=DC9TQ3jgI-LuCd9b">Talking tech and AI with google CEO Sundar pichai!</a></div>
+              <div class="name-views">Ya7aY </div> 
+              <div class="name-views">3.4M views. 6 month ago</div>          
+            </div>
+        </div>
+      </div>
+      <div class="big-div" >
+
+        <div  style="position: relative;height: 170px;">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+          <div class="time-video" >14:55</div>
+        </div>
+        <!--had lpartie dyal hover  -->
+        <div class="profil-title-div">
+            <div class="div-hover-test">
+            <img class="profile-channel" src="thumbnails/pitt1.jpg"> 
+              <div class="div-hover-profile">
+                  <img class="profile-channel2" src="thumbnails/pitt1.jpg">
+                  <div>
+                    <div>
+                    YA7YA
+                  </div>
+                  <div style="color: rgb(199, 194, 194);margin-top: 5px;">
+                    100M SUBSRCRIBE
+                  </div>
+                  </div>
+              </div>
+            </div>
+        <!-- -->
+            <div class="titlt-name-views" >
+              <div class="title-video"><a class="title" href="https://youtu.be/n2RNcPRtAiY?si=DC9TQ3jgI-LuCd9b">Talking tech and AI with google CEO Sundar pichai!</a></div>
+              <div class="name-views">Ya7aY </div> 
+              <div class="name-views">3.4M views. 6 month ago</div>          
+            </div>
+        </div>
+      </div>
+      <div class="big-div" >
+
+        <div  style="position: relative;height: 170px;">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+          <div class="time-video" >14:55</div>
+        </div>
+        <!--had lpartie dyal hover  -->
+        <div class="profil-title-div">
+            <div class="div-hover-test">
+            <img class="profile-channel" src="thumbnails/pitt1.jpg"> 
+              <div class="div-hover-profile">
+                  <img class="profile-channel2" src="thumbnails/pitt1.jpg">
+                  <div>
+                    <div>
+                    YA7YA
+                  </div>
+                  <div style="color: rgb(199, 194, 194);margin-top: 5px;">
+                    100M SUBSRCRIBE
+                  </div>
+                  </div>
+              </div>
+            </div>
+        <!-- -->
+            <div class="titlt-name-views" >
+              <div class="title-video"><a class="title" href="https://youtu.be/n2RNcPRtAiY?si=DC9TQ3jgI-LuCd9b">Talking tech and AI with google CEO Sundar pichai!</a></div>
+              <div class="name-views">Ya7aY </div> 
+              <div class="name-views">3.4M views. 6 month ago</div>          
+            </div>
+        </div>
+      </div>
+      <div class="big-div" >
+
+        <div  style="position: relative;height: 170px;">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+          <div class="time-video" >14:55</div>
+        </div>
+        <!--had lpartie dyal hover  -->
+        <div class="profil-title-div">
+            <div class="div-hover-test">
+            <img class="profile-channel" src="thumbnails/pitt1.jpg"> 
+              <div class="div-hover-profile">
+                  <img class="profile-channel2" src="thumbnails/pitt1.jpg">
+                  <div>
+                    <div>
+                    YA7YA
+                  </div>
+                  <div style="color: rgb(199, 194, 194);margin-top: 5px;">
+                    100M SUBSRCRIBE
+                  </div>
+                  </div>
+              </div>
+            </div>
+        <!-- -->
+            <div class="titlt-name-views" >
+              <div class="title-video"><a class="title" href="https://youtu.be/n2RNcPRtAiY?si=DC9TQ3jgI-LuCd9b">Talking tech and AI with google CEO Sundar pichai!</a></div>
+              <div class="name-views">Ya7aY </div> 
+              <div class="name-views">3.4M views. 6 month ago</div>          
+            </div>
+        </div>
+      </div>
+      <div class="big-div" >
+
+        <div  style="position: relative;height: 170px;">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.webp">
+          <div class="time-video" >14:55</div>
+        </div>
+        <!--had lpartie dyal hover  -->
+        <div class="profil-title-div">
+            <div class="div-hover-test">
+            <img class="profile-channel" src="thumbnails/pitt1.jpg"> 
+              <div class="div-hover-profile">
+                  <img class="profile-channel2" src="thumbnails/pitt1.jpg">
+                  <div>
+                    <div>
+                    YA7YA
+                  </div>
+                  <div style="color: rgb(199, 194, 194);margin-top: 5px;">
+                    100M SUBSRCRIBE
+                  </div>
+                  </div>
+              </div>
+            </div>
+        <!-- -->
+            <div class="titlt-name-views" >
+              <div class="title-video"><a class="title" href="https://youtu.be/n2RNcPRtAiY?si=DC9TQ3jgI-LuCd9b">Talking tech and AI with google CEO Sundar pichai!</a></div>
+              <div class="name-views">Ya7aY </div> 
+              <div class="name-views">3.4M views. 6 month ago</div>          
+            </div>
+        </div>
       </div>
     </div>
     
